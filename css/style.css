@@ -1,0 +1,33 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* proprietà riga */
+[class*="col-"] {
+  min-height: 130px;
+  background-color: pink;
+  border: 1px solid black;
+}
+.row {
+  line-height: 130px;
+  text-align: center;
+}
+
+/* proprietà riga speciale */
+.special {
+  padding: 3px;
+}
+.colonna-speciale {
+  background-color: #f07f80;
+  border: 1px solid white;
+  position: relative;
+}
+.centratura {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
